@@ -1,5 +1,5 @@
 var map;
-var myLatlng = new google.maps.LatLng(-22.972156, -47.0139204); 
+var myLatlng = new google.maps.LatLng(-22.972274, -47.013915); 
 function initialize() {
 
     var roadAtlasStyles = [{
@@ -80,15 +80,6 @@ function initialize() {
     var marker = new google.maps.Marker({
 	    position: myLatlng,
 	    map: map,
-	    icon: {
-	        path: fontawesome.markers.MAP_MARKER,
-	        scale: 0.9,
-	        strokeWeight: 0.2,
-	        strokeColor: 'black',
-	        strokeOpacity: 0,
-	        fillColor: $(".skin2 h5").css('background-color'),
-	        fillOpacity: 1
-	    },
 	    clickable: false,
 	});
 
